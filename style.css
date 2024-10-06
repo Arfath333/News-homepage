@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+.nav {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    height: 11vh;
+}
+.nav ul{
+display: none;
+}
+.nav img {
+    margin: 20px 0;
+}
+.nav .icon-menu {
+    border: none;
+    background-color: white;
+    width: 20vw;
+}
+.main .desktopimg{
+    display: none;
+}
+.main img{
+    width: 100vw;
+    height: 50vh;
+    margin-bottom: 20px;
+}
+.main .header h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 2.5rem;
+    margin-bottom: 20px;    
+}
+.main .header p {
+    color: #8f90a5;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+.main button {
+    color: #370d0f;
+    padding: 15px 30px;
+    background-color: #f15d51;
+    border: none;
+    margin: 20px 0;
+    text-decoration: none;
+    font-weight: 900;
+    letter-spacing: 0.3rem;
+}
+.wraper {
+    background-color: #00001a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding:0 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.wraper .head {
+    color: #f1ae59;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.wraper h2 {
+font-size: 1.2rem;
+padding-top: 30px;
+}
+.wraper p {
+    color: #8f90a5;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    padding:15px 0;
+    border-bottom: 1px solid grey;
+}
+.wraper .bottom p{
+    border: none;
+    padding-bottom: 1.5rem;
+}
+.footer img{
+    width: 40vw;
+    height: 20vh;
+}
+.footer .top-laptops{
+    width: 30vw;
+}
+.footer .btm {
+    display: flex;
+    margin: 30px 0;
+}
+.footer h1{
+color: #e65853;
+font-size: 2rem;
+}
+.footer h2{
+    font-size: 1.1rem;
+    font-weight: 900;
+    padding:10px 0
+}
+.footer p {
+    color: grey;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+}
+.footer #btm {
+    padding-left: 20px;
+}
+@media screen and (min-width:1024px) {
+    .nav{
+        width: 100vw;
+        height: 10vh;
+    }
+    .nav button{
+        display: none;
+    } 
+    .nav ul {
+        display: flex;
+        align-items: center;
+        gap: 2.3rem;
+        width: 45vw;
+        list-style-type:none;
+    }
+    .nav a:hover{
+    color: #f15d51;
+    cursor: pointer;
+    }
+    .nav a{
+        text-decoration: none;
+        color: grey;
+        font-size: 1rem;
+    }
+    .main{
+        display: flex;
+        gap: 2rem;
+        height: 65vh;
+        width: 100vw;
+    }
+    .main .mobileimg{
+        display: none;        
+    }
+    .main .desktopimg {
+        display: block;
+        width: 65vw;
+        height: 35vh;
+    }
+    .main .header{
+        width: 65vw;
+    }
+    .main .paragraph {
+        display: flex;
+        width: 65vw;
+        align-items: center;
+    }
+    .main .paragraph h2 {
+        width: 30vw;
+        font-size: 3rem;
+        line-height: 3.5rem;
+        margin-bottom: 0;
+    }
+    .main .paragraph p {
+        width: 35vw;
+        height: 15vh;
+        margin-top: 10px;
+        padding-inline: 1rem;
+    }
+    .main .header button {
+        margin-inline: 1rem;
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+    .main button:hover{
+        cursor: pointer;
+        color: white;
+        background-color: #00001a;
+    }
+    .main a:hover{
+        color: white;
+    }
+    .wraper {
+        margin:0;
+        width: 35vw;
+    }
+    .wraper p {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .wraper h2:hover {
+    color: #f1ae59;
+        cursor: pointer;
+    }
+    .wraper .bottom p {
+    padding-bottom: 0;
+
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        height: 20vh;
+    }
+    .footer .btm{
+        width: 33vw;
+        height: 10vh;
+        margin: 40px 0;
+        gap: 0;
+    }
+    .footer h1 {
+        width: 20vw;
+    }
+    .footer h2{
+        width: 20vw;
+    }
+    .footer h2:hover{
+    color: #e65853;
+    cursor: pointer;
+    }
+    .footer p {
+        width: 20vw;
+    }
+    .footer img {
+        width: 20vw;
+        height: 15vh;
+    }
+    .footer .top-laptops {
+        width: 10vw;
+    }
+}
